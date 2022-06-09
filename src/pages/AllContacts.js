@@ -3,9 +3,12 @@ import Navigation from "../components/Navigation";
 
 const allContacts = () => {
   return (
-    <div>
-      <Navigation />
-      <h1>ALLCONTACTSPAGES</h1>
+    <div className="container">
+      <div className="div1">
+        <Navigation />
+      </div>
+      <div className="div2"> ALL CONTACTS</div>
+      <div className="div3"> </div>
     </div>
   );
 };
