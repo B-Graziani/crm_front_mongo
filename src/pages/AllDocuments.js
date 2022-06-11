@@ -1,4 +1,5 @@
 import React from "react";
+import Documents from "../components/Documents";
 import Navigation from "../components/Navigation";
 
 const AllDocuments = () => {
@@ -7,7 +8,9 @@ const AllDocuments = () => {
       <div className="div1">
         <Navigation />
       </div>
-      <div className="div2"> ALL DOCUMENTS</div>
+      <div className="div2">
+        <Documents />
+      </div>
       <div className="div3"> </div>
     </div>
   );

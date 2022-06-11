@@ -1,4 +1,5 @@
 import React from "react";
+import Contact from "../components/Contacts";
 import Navigation from "../components/Navigation";
 
 const allContacts = () => {
@@ -7,7 +8,9 @@ const allContacts = () => {
       <div className="div1">
         <Navigation />
       </div>
-      <div className="div2"> ALL CONTACTS</div>
+      <div className="div2">
+        <Contact />
+      </div>
       <div className="div3"> </div>
     </div>
   );
