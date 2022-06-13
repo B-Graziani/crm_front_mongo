@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Contact from "../models/contact";
+
 // import ContactService from "../services/contact";
 
 const ContactForm = () => {
