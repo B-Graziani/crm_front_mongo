@@ -1,0 +1,31 @@
+.card-product {
+  display: flex;
+  flex-direction: row;
+  margin: 2px;
+  border: 1px solid black;
+  border-radius: 8px;
+  .default-image {
+    width: 30%;
+    // height: 100%;
+    background: aqua;
+    border: 1px solid red;
+    border-radius: 8px;
+  }
+  .card-product-infos {
+    height: 100%;
+    width: 40%;
+    background: antiquewhite;
+  }
+  .card-product-actions {
+    display: flex;
+    flex-direction: column;
+  }
+  .update-delete {
+    display: flex;
+    flex-direction: row;
+    background: aquamarine;
+  }
+  .add {
+    background: blueviolet;
+  }
+}

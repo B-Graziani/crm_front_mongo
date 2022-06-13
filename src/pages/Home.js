@@ -1,5 +1,7 @@
 import React from "react";
+import Chiffres from "../components/Chiffres";
 import Navigation from "../components/Navigation";
+import Strategies from "../components/Strategies";
 
 const Home = () => {
   return (
@@ -8,7 +10,10 @@ const Home = () => {
         <Navigation />
       </div>
       <div className="div2"> Home Content</div>
-      <div className="div3"> </div>
+      <div className="div3">
+        <Chiffres />
+        <Strategies />
+      </div>
     </div>
   );
 };

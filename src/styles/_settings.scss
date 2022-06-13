@@ -26,15 +26,26 @@ body {
 
 .div1 {
   grid-area: 1 / 1 / 6 / 2;
-  background-color: red;
+  background-color: #5800ff;
+  position: fixed;
+  height: 100vh;
 }
 
 .div2 {
   grid-area: 1 / 2 / 6 / 6;
-  background-color: yellow;
+  background-color: white;
 }
 
 .div3 {
   grid-area: 1 / 6 / 6 / 9;
-  background-color: green;
+  background-color: #00ffdd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  position: fixed;
+  height: 100vh;
+  top: 0;
+  right: 0;
+  width: 30%;
 }

@@ -1,6 +1,8 @@
 import React from "react";
+import Chiffres from "../components/Chiffres";
 import Navigation from "../components/Navigation";
 import Products from "../components/Products";
+import Strategies from "../components/Strategies";
 
 const AllProducts = () => {
   return (
@@ -12,7 +14,10 @@ const AllProducts = () => {
         <Products />
       </div>
 
-      <div className="div3"> </div>
+      <div className="div3">
+        <Chiffres />
+        <Strategies />
+      </div>
     </div>
   );
 };

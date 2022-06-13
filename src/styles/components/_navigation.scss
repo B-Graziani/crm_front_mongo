@@ -1,29 +1,18 @@
-// .navigation {
-//   background: red;
-//   width: 160px;
-//   height: 100vh;
-//   //   position: absolute;
-//   //   position: sticky;
-//   //   left: 0;
-
-//   ul {
-//     display: flex;
-//     flex-direction: column;
-//     // margin: 30px;
-
-//     a {
-//       text-decoration: none;
-//       padding: 10px;
-
-//       li {
-//         color: white;
-//         transition: 0.2s;
-//         cursor: pointer;
-
-//         &:hover {
-//           color: black;
-//         }
-//       }
-//     }
-//   }
-// }
+.navigation {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  ul {
+    text-align: center;
+    li {
+      text-decoration: none;
+    }
+    a {
+      color: white;
+      text-decoration: none;
+      &:hover {
+      }
+    }
+  }
+}

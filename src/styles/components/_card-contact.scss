@@ -1,0 +1,17 @@
+.card-contact {
+  list-style-type: none;
+  width: 160px;
+  height: 160px;
+  background: gold;
+  padding: 8px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  .fullname {
+    display: flex;
+    flex-direction: row;
+  }
+  .card-contact-action {
+    background: blue;
+    color: white;
+  }
+}

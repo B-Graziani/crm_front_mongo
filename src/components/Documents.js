@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import CardDocument from "./CardDocument";
 
 const Documents = () => {
   const [data, setData] = useState([]);
@@ -13,9 +14,10 @@ const Documents = () => {
       <h2>DOCUMENTS</h2>
       <ul>
         {data.map((document, index) => (
-          <li key={index}>
-            {document.type}, {document.contactId.agencyName}
-          </li>
+          // <li key={index}>
+          //   {document.type}, {document.contactId.agencyName}
+          // </li>
+          <CardDocument key={index} document={document} />
         ))}
       </ul>
     </div>

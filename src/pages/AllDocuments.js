@@ -1,6 +1,8 @@
 import React from "react";
 import Documents from "../components/Documents";
 import Navigation from "../components/Navigation";
+import Chiffres from "../components/Chiffres";
+import Strategies from "../components/Strategies";
 
 const AllDocuments = () => {
   return (
@@ -11,7 +13,10 @@ const AllDocuments = () => {
       <div className="div2">
         <Documents />
       </div>
-      <div className="div3"> </div>
+      <div className="div3">
+        <Chiffres />
+        <Strategies />
+      </div>
     </div>
   );
 };
