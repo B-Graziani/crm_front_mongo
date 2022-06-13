@@ -11,11 +11,11 @@ const Navigation = () => {
         <NavLink to={"/contacts"}>
           <li>CONTACT</li>
         </NavLink>
-        <NavLink to={"/documents"}>
-          <li>DOCUMENT</li>
-        </NavLink>
         <NavLink to={"/products"}>
           <li>PRODUCT</li>
+        </NavLink>
+        <NavLink to={"/documents"}>
+          <li>DOCUMENT</li>
         </NavLink>
       </ul>
     </div>

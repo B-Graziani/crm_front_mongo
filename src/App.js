@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import AllProducts from "./pages/AllProducts";
 import AllContacts from "./pages/AllContacts";
 import AllDocuments from "./pages/AllDocuments";
+import AddContact from "./pages/AddContact";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Route path="/products" element={<AllProducts />} />
         <Route path="/contacts" element={<AllContacts />} />
         <Route path="/documents" element={<AllDocuments />} />
+        <Route path="/contact" element={<AddContact />} />
         <Route path="*" element={<Home />} />
       </Routes>
     </BrowserRouter>
